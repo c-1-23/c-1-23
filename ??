@@ -1,0 +1,153 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+ 
+local Window = Rayfield:CreateWindow({
+   Name = "soonlkidd's gui of nds",
+   Icon = 111162344979395, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "soonlkidd's gui",
+   LoadingSubtitle = "by Soonlkidd",
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+ 
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+ 
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+ 
+   Discord = {
+      Enabled = True, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "Teamsoonlkidd", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+   },
+ 
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "join discord for key, this script can be used for other games.",
+      Subtitle = "Enter Key",
+      Note = "Join the discord and ask the mods or owner for key", -- Use this to tell the user how to get a key
+      FileName = "pastebin", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"soonlkiddsecretkey","dyskord","quijk"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+ 
+local MainTab = Window:CreateTab("trolling scripts", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Troll")
+ 
+local ToolsTab = Window:CreateTab("Tool givers", nil) -- Title, Image
+ 
+local DiscordTab = Window:CreateTab("Discord link", nil)
+ 
+Rayfield:Notify({
+   Title = "Welcome!",
+   Content = "Key system here!!!",
+   Duration = 3.5,
+   Image = 111162344979395,
+})
+ 
+local Button = MainTab:CreateButton({
+   Name = "logo project ligma",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/K"))()
+   end,
+})
+ 
+local Button = MainTab:CreateButton({
+   Name = "Guest_999s0 v3",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/MFyvPtEN'))()
+   end,
+})
+ 
+local Button = MainTab:CreateButton({
+   Name = "5x5x5x50s v8",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/gA21nF2A"))()
+   end,
+})
+ 
+local Button = MainTab:CreateButton({
+   Name = "young Shelon gui",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/asrzS5Ha"))()
+   end,
+})
+ 
+local Button = MainTab:CreateButton({
+   Name = "old script Guest_999s0",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/5x5x5x50s/5x5x5x50s/refs/heads/main/https%3A/Cool"))()
+   end,
+})
+ 
+local Button = MainTab:CreateButton({
+   Name = "dominator executor",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/u97psnsQ"))()
+   end,
+})
+ 
+local Button = MainTab:CreateButton({
+   Name = "Project Legma",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/zAT5y7Ci"))()
+   end,
+})
+ 
+local Buttton = MainTab:CreateButton({
+   Name = "Wisl FE",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/wisl884/wisl-i-Universal-Project1/main/Wisl'i%20Universal%20Project.lua", true))()
+      end,
+   })
+ 
+local Button = ToolsTab:CreateButton({
+   Name = "Telekinesis",
+   Callback = function()
+   loadstring(game:HttpGet(("https://pastebin.com/raw/07GGb4Dk"),true))()
+   end,
+})
+ 
+local Button = DiscordTab:CreateButton({
+   Name = "https://discord.gg/xyKCEVhE",
+   Callback = function()
+ 
+      end,
+   })
+ 
+local Button = DiscordTab:CreateButton({
+   Name = "discord.gg/xyKCEVhE",
+   Callback = function()
+ 
+   end,
+})
+ 
+local PlayerTab = Window:CreateTab("Player", nil) -- Title, Image
+local Section = PlayerTab:CreateSection("Tp or edit your speed.")
+ 
+local Slider = PlayerTab:CreateSlider({
+   Name = "Walk Speed",
+   Range = {16, 250},
+   Increment = 1,
+   Suffix = "Speed",
+   CurrentValue = 16,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+           game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+   end,
+})
+ 
+local Dropdown = PlayerTab:CreateDropdown({
+   Name = "Teleport to area (Not working atm)",
+   Options = {"Spawn","Island"},
+   CurrentOption = {"nil"},
+   MultipleOptions = false,
+   Flag = "Teleport", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Options)
+   -- The function that takes place when the selected option is changed
+   -- The variable (Options) is a table of strings for the current selected options
+   end,
+})
