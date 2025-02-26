@@ -34,8 +34,8 @@ local Window = Rayfield:CreateWindow({
    }
 })
  
-local MainTab = Window:CreateTab("trolling scripts", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Troll")
+local MainTab = Window:CreateTab("Script", nil) -- Title, Image
+local MainSection = MainTab:CreateSection("Script")
  
 local ToolsTab = Window:CreateTab("Tool givers", nil) -- Title, Image
  
