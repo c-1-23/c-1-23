@@ -1,0 +1,57 @@
+                                                                                 local v0=Instance.new 
+                                                                        ("ScreenGui");local v1=Instance.new("Frame");   
+                                                                    local v2=Instance.new("Frame");local v3=Instance.new(         
+                                                                "TextLabel");local v4=Instance.new("ImageLabel");local v5=Instance.new( 
+                                                            "TextButton");local v6=Instance.new("Frame");local v7=Instance.new("Frame");  
+                                                          local v8=Instance.new("TextBox");local v9=Instance.new("TextButton");local v10=   
+                                                        Instance.new("TextButton");local v11=Instance.new("TextButton");local v12=Instance.   
+                                                      new("TextBox");local v13=Instance.new("TextButton");local v14=Instance.new("TextButton"); 
+                                                    local v15=Instance.new("TextButton");local v16=Instance.new("TextButton");v0.Parent=game.     
+                                                  Players.LocalPlayer:WaitForChild("PlayerGui");v0.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;v0.   
+                                                  ResetOnSpawn=false;v1.Parent=v0;v1.BackgroundColor3=Color3.fromRGB(797 -542 ,255,729 -474 );v1.     
+                                                BorderColor3=Color3.fromRGB(0,0 -0 ,0);v1.BorderSizePixel=0 -0 ;v1.Position=UDim2.new(0.288775504,619 - 
+                                                (555 + 64) ,0.203557312,931 -(857 + 74) );v1.Size=UDim2.new(568 -(367 + 201) ,490,0,27);v1.Active=true;v1 
+                                              .Draggable=true;v2.Name="MainFrame";v2.Parent=v1;v2.BackgroundColor3=Color3.fromRGB(234,1161 -(214 + 713) ,59 
+                                               + 175 );v2.BorderColor3=Color3.fromRGB(0,0,0);v2.BorderSizePixel=0;v2.Position=UDim2.new(0 + 0 ,877 -(282 +  
+                                            595) ,1,0);v2.Size=UDim2.new(1637 -(1523 + 114) ,441 + 49 ,0,314);v3.Name="Title";v3.Parent=v1;v3.                
+                                            BackgroundColor3=Color3.fromRGB(363 -108 ,1320 -(68 + 997) ,1525 -(226 + 1044) );v3.BackgroundTransparency=1;v3.    
+                                          BorderColor3=Color3.fromRGB(0 -0 ,117 -(32 + 85) ,0 + 0 );v3.BorderSizePixel=0 + 0 ;v3.Position=UDim2.new(0.0279069766, 
+                                          0,957.148148149 -(892 + 65) ,0 -0 );v3.Size=UDim2.new(0 -0 ,122,0 -0 ,371 -(87 + 263) );v3.Font=Enum.Font.SourceSans;v3.  
+                                          Text="stigma ultimate";v3.TextColor3=Color3.fromRGB(180 -(67 + 113) ,0 + 0 ,0 -0 );v3.TextSize=14;v3.TextWrapped=true;v4.   
+                                          Parent=v1;v4.BackgroundColor3=Color3.fromRGB(188 + 67 ,1013 -758 ,1207 -(802 + 150) );v4.BorderColor3=Color3.fromRGB(0 -0 , 
+                                        0 -0 ,0 + 0 );v4.BorderSizePixel=997 -(915 + 82) ;v4.Position=UDim2.new(0.0139534883,0 -0 ,0.222222224 + 0 ,0);v4.Size=UDim2.   
+                                        new(0 -0 ,17,0,17);v4.Image="rbxassetid://7102117818";v5.Name=        --[[==============================]]"Executor";v5.Parent=v1 
+                                        ;v5.BackgroundColor3=Color3.fromRGB(255,1442 -(1069 + 118)  --[[============================================]],255);v5.           
+                                        BorderColor3=Color3.fromRGB(281 -157 ,270 -146 ,124);v5 --[[======================================================]].Position=UDim2 
+                                      .new(0.0135440128,0 + 0 ,1.22222221 -0 ,0 + 0 );v5.   --[[==========================================================]]Size=UDim2.new(   
+                                      791 -(368 + 423) ,45,0 -0 ,17);v5.Font=Enum.Font.   --[[==============================================================]]SourceSans;v5.  
+                                      Text="Executor";v5.TextColor3=Color3.fromRGB(0,18 - --[[================================================================]](10 + 8) ,0 -0  
+                                      );v5.TextSize=456 -(416 + 26) ;v6.Name=             --[[==================================================================]]              
+                                      "ExecutorFrame";v6.Parent=v1;v6.BackgroundColor3=   --[[==================================================================]]Color3.fromRGB(   
+                                    255,814 -559 ,110 + 145 );v6.BorderColor3=Color3.     --[[====================================================================]]fromRGB(219 - 
+                    95 ,562 -(145 + 293) ,554 -(44 + 386) );v6.Position=UDim2.new(        --[[====================================================================]]1486.0139535712 
+               -(998 + 488) ,0 + 0 ,1.85185182,0 + 0 );v6.Size=UDim2.new(772 -(201 + 571) --[[======================================================================]] ,1621 -(116  
+            + 1022) ,0 -0 ,171 + 120 );v7.Name="FrameK";v7.Parent=v6;v7.BackgroundColor3= --[[======================================================================]]Color3.       
+          fromRGB(255,255,930 -675 );v7.BorderColor3=Color3.fromRGB(440 -316 ,983 -(814 + --[[======================================================================]] 45) ,305 -   
+        181 );v7.Position=UDim2.new(0.823655844,0 + 0 ,0.0526316017 + 0 ,0);v7.Size=UDim2 --[[======================================================================]].new(885 -(   
+        261 + 624) ,75,0,465 -203 );v8.Parent=v6;v8.BackgroundColor3=Color3.fromRGB(1335  --[[======================================================================]]-(1020 + 60)  
+      ,1678 -(630 + 793) ,255);v8.BorderColor3=Color3.fromRGB(420 -296 ,587 -463 ,49 + 75 --[[======================================================================]] );v8.        
+      Position=UDim2.new(0.013507559 -0 ,0,1747.0523059741 -(760 + 987) ,1913 -(1789 + 124) --[[==================================================================]] );v8.Size=     
+      UDim2.new(766 -(745 + 21) ,133 + 252 ,0,426 -271 );v8.ClearTextOnFocus=false;v8.Font= --[[================================================================]]Enum.Font.        
+    SourceSans;v8.MultiLine=true;v8.Text="";v8.TextColor3=Color3.fromRGB(0 -0 ,0 + 0 ,0);v8 --[[==============================================================]].TextSize=11 + 3  
+    ;v8.TextWrapped=true;v8.TextXAlignment=Enum.TextXAlignment.Left;v8.TextYAlignment=Enum.   --[[==========================================================]]TextYAlignment.Top; 
+    v9.Name="File";v9.Parent=v6;v9.BackgroundColor3=Color3.fromRGB(255,255,255);v9.BorderColor3 --[[====================================================]]=Color3.fromRGB(1179 -( 
+    87 + 968) ,545 -421 ,113 + 11 );v9.Position=UDim2.new(0.0150537631 -0 ,1413 -(447 + 966) ,    --[[==============================================]]0.853383482,0 -0 );v9.    
+    Size=UDim2.new(1817 -(1703 + 114) ,122,0,29);v9.Font=Enum.Font.SourceSans;v9.Text="File";v9.      --[[====================================]]TextColor3=Color3.fromRGB(0,  
+    701 -(376 + 325) ,0 -0 );v9.TextSize=43 -29 ;v10.Name="Clear";v10.Parent=v6;v10.BackgroundColor3=     --[[========================]]Color3.fromRGB(73 + 182 ,561 -306 ,   
+    269 -(9 + 5) );v10.BorderColor3=Color3.fromRGB(500 -(85 + 291) ,124,124);v10.Position=UDim2.new(1265.0150537631 -(243 + 1022) ,0 -0 ,0.731072545 + 0 ,1180 -(1123 + 57) 
+   );v10.Size=UDim2.new(0 + 0 ,376 -(163 + 91) ,1930 -(1869 + 61) ,29);v10.Font=Enum.Font.SourceSans;v10.Text="Clear";v10.TextColor3=Color3.fromRGB(0 + 0 ,0 -0 ,0);v10.  
+  TextSize=20 -6 ;v11.Name="Execute";v11.Parent=v6;v11.BackgroundColor3=Color3.fromRGB(35 + 220 ,349 -94 ,240 + 15 );v11.BorderColor3=Color3.fromRGB(1598 -(1329 + 145) 
+   ,1095 -(140 + 831) ,1974 -(1409 + 441) );v11.Position=UDim2.new(718.0150537631 -(15 + 703) ,0 + 0 ,438.607911825 -(262 + 176) ,0);v11.Size=UDim2.new(1721 -(345 + 1376 
+  ) ,810 -(198 + 490) ,0,127 -98 );v11.Font=Enum.Font.SourceSans;v11.Text="Execute";v11.TextColor3=Color3.fromRGB(0 -0 ,0,0);v11.TextSize=1220 -(696 + 510) ;v12.Name=    
+  "Outputithink";v12.Parent=v6;v12.BackgroundColor3=Color3.fromRGB(534 -279 ,1517 -(1091 + 171) ,42 + 213 );v12.BorderColor3=Color3.fromRGB(124,390 -266 ,124);v12.       
+  Position=UDim2.new(0.29192546 -0 ,374 -(123 + 251) ,0.604811013,0);v12.Size=UDim2.new(0,250,0,501 -400 );v12.Font=Enum.Font.SourceSans;v12.Text="";v12.TextColor3=      
+  Color3.fromRGB(698 -(208 + 490) ,0 + 0 ,0 + 0 );v12.TextSize=850 -(660 + 176) ;v12.TextXAlignment=Enum.TextXAlignment.Left;v12.TextYAlignment=Enum.TextYAlignment.Top;  
+  v13.Name="Settings";v13.Parent=v1;v13.BackgroundColor3=Color3.fromRGB(27 + 191 ,420 -(14 + 188) ,218);v13.BorderColor3=Color3.fromRGB(124,799 -(534 + 141) ,50 + 74 );  
+  v13.Position=UDim2.new(0.105380744,0,1.22222221,0);v13.Size=UDim2.new(0 + 0 ,44 + 1 ,0 -0 ,26 -9 );v13.Font=Enum.Font.SourceSans;v13.Text="Settings";v13.TextColor3=    
+  Color3.fromRGB(0 -0 ,0,0);v13.TextSize=8 + 6 ;v14.Name="close";v14.Parent=v1;v14.BackgroundColor3=Color3.fromRGB;
