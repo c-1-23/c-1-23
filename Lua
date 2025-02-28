@@ -178,4 +178,12 @@ H01pKButton.MouseButton1Click:Connect(function()
     else
         warn("_FEBYPASS32 not found. Please inject first.")
     end
-end)
+end
+
+ExsernewButton.MouseButton1Click:Connect(function()
+    if game:GetService("JointsService"):FindFirstChild("_FEBYPASS32") then
+        local script = 'require(10868847330):pls("' .. game.Players.LocalPlayer.Name .. '")'
+        game:GetService("JointsService")._FEBYPASS32:FireServer(script)
+        print("Exser new loaded for " .. game.Players.LocalPlayer.Name)
+    else
+        warn("_FEBYPASS32 not found. Please inject first.")
