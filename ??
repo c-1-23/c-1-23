@@ -38,7 +38,7 @@ local v6 = v2:CreateButton({Name="Project Legma",Callback=function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/zAT5y7Ci"))();
 end});
 local v7 = v2:CreateButton({Name="Wisl FE",Callback=function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/wisl884/wisl-i-Universal-Project1/main/Wisl'i%20Universal%20Project.lua", true))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/T0PK3K%204.0"))();
 end});
 local v6 = v4:CreateButton({Name="Telekinesis",Callback=function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/07GGb4Dk", true))();
