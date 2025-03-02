@@ -28,14 +28,14 @@ end});
 local v6 = v2:CreateButton({Name="young Shelon gui",Callback=function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/asrzS5Ha"))();
 end});
-local v6 = v2:CreateButton({Name="old script Guest_999s0",Callback=function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/5x5x5x50s/5x5x5x50s/refs/heads/main/https%3A/Cool"))();
+local v6 = v2:CreateButton({Name="Obama jumpscare",Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/Obama"))();
 end});
 local v6 = v2:CreateButton({Name="dominator executor",Callback=function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/u97psnsQ"))();
 end});
-local v6 = v2:CreateButton({Name="Project Legma",Callback=function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/zAT5y7Ci"))();
+local v6 = v2:CreateButton({Name="Exser",Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/gitluau/luauexser/refs/heads/main/pHzp8uG1PO962o6qucrlP3AJy17eV3B.lua"))();
 end});
 local v7 = v2:CreateButton({Name="T0PK3K",Callback=function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/T0PK3K%204.0"))();
