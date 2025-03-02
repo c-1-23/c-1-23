@@ -1,0 +1,56 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+
+]]--
+
+local v0 = loadstring(game:HttpGet("https://sirius.menu/rayfield"))();
+local v1 = v0:CreateWindow({Name="soonlkidd's fe gui",Icon=(111162344980285 - (668 + 222)),LoadingTitle="soonlkidd's gui",LoadingSubtitle="by Soonlkidd",Theme="Default",DisableRayfieldPrompts=false,DisableBuildWarnings=false,ConfigurationSaving={Enabled=true,FolderName=nil,FileName="Big Hub"},Discord={Enabled=True,Invite="Teamsoonlkidd",RememberJoins=false},KeySystem=true,KeySettings={Title="join discord for key, this script can be used for other games.",Subtitle="Enter Key",Note="Join the discord and ask the mods or owner for key",FileName="pastebin",SaveKey=false,GrabKeyFromSite=false,Key={"soonlkiddsecretkey","dyskord","quijk"}}});
+local v2 = v1:CreateTab("Script", nil);
+local v3 = v2:CreateSection("Script");
+local v4 = v1:CreateTab("Tool givers", nil);
+local v5 = v1:CreateTab("Discord link", nil);
+v0:Notify({Title="Welcome!",Content="Key system here!!!",Duration=(880.5 - (282 + 595)),Image=(111162344981032 - (1523 + 114))});
+local v6 = v2:CreateButton({Name="logo project ligma",Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/K"))();
+end});
+local v6 = v2:CreateButton({Name="Guest_999s0 v3",Callback=function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MFyvPtEN"))();
+end});
+local v6 = v2:CreateButton({Name="5x5x5x50s v8",Callback=function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/gA21nF2A"))();
+end});
+local v6 = v2:CreateButton({Name="young Shelon gui",Callback=function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/asrzS5Ha"))();
+end});
+local v6 = v2:CreateButton({Name="old script Guest_999s0",Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/5x5x5x50s/5x5x5x50s/refs/heads/main/https%3A/Cool"))();
+end});
+local v6 = v2:CreateButton({Name="dominator executor",Callback=function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/u97psnsQ"))();
+end});
+local v6 = v2:CreateButton({Name="Exser",Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/gitluau/luauexser/refs/heads/main/pHzp8uG1PO962o6qucrlP3AJy17eV3B.lua"))();
+end});
+local v7 = v2:CreateButton({Name="T0PK3K",Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/T0PK3K%204.0"))();
+end});
+local v6 = v4:CreateButton({Name="Telekinesis",Callback=function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/07GGb4Dk", true))();
+end});
+local v6 = v5:CreateButton({Name="https://discord.gg/xyKCEVhE",Callback=function()
+end});
+local v6 = v5:CreateButton({Name="discord.gg/xyKCEVhE",Callback=function()
+end});
+local v8 = v1:CreateTab("Player", nil);
+local v9 = v8:CreateSection("Tp or edit your speed.");
+local v10 = v8:CreateSlider({Name="Walk Speed",Range={(22 - 6),(1520 - (226 + 1044))},Increment=(4 - 3),Suffix="Speed",CurrentValue=(133 - (32 + 85)),Flag="Slider1",Callback=function(v12)
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v12;
+end});
+local v11 = v8:CreateDropdown({Name="Teleport to area (Not working atm)",Options={"Spawn","Island"},CurrentOption={"nil"},MultipleOptions=false,Flag="Teleport",Callback=function(v14)
+end});
