@@ -1,0 +1,4 @@
+NewProject19_release.apk
+	Type: zip
+	File count: 10
+	Content size: 591.52KB (605721B)
