@@ -201,8 +201,8 @@ ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(0.967936343, 0, 0.162872151, 0)
-ImageLabel.Size = UDim2.new(1, 1, 0.15, 148)
+ImageLabel.Position = UDim2.new(1.967936343, 0, 0.162872151, 0)
+ImageLabel.Size = UDim2.new(0, 92, 0, 30)
 ImageLabel.Image = "rbxassetid://77379747316537"
 
 
