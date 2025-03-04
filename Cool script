@@ -85,23 +85,6 @@ TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
 TextButton_3.TextWrapped = true
 
-K00PGUI.Parent = Frame
-K00PGUI.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-K00PGUI.BorderColor3 = Color3.fromRGB(242, 243, 243)
-K00PGUI.BorderSizePixel = 3
-K00PGUI.Position = UDim2.new(1, 0, 0.15, 0)
-K00PGUI.Rotation = 25
-K00PGUI.Size = UDim2.new(0, 92, 0, 30)
-K00PGUI.Font = Enum.Font.SourceSans
-K00PGUI.Text = "K00PKIDD GUI V11"
-K00PGUI.TextColor3 = Color3.fromRGB(242, 243, 243)
-K00PGUI.TextScaled = true
-K00PGUI.TextSize = 14.000
-K00PGUI.TextWrapped = true
-K00PGUI.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/K00pkidd%20v11"))()
-end)
-
 TextButton_4.Parent = Frame
 TextButton_4.BackgroundColor3 = Color3.fromRGB(248, 248, 248)
 TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 255)
@@ -219,7 +202,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
 ImageLabel.Position = UDim2.new(0.967936343, 0, 0.162872151, 0)
-ImageLabel.Size = UDim2.new(0, 200, 0, 148)
+ImageLabel.Size = UDim2.new(1, 1, 0.15, 148)
 ImageLabel.Image = "rbxassetid://77379747316537"
 
 
