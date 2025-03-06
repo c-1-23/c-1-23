@@ -94,7 +94,7 @@ decalspam_2.BorderSizePixel = 3
 decalspam_2.Position = UDim2.new(0.333372593, 0, 13.7902412, 0)
 decalspam_2.Size = UDim2.new(0, 86, 0, 50)
 decalspam_2.Font = Enum.Font.Arial
-decalspam_2.Text = "c00lkidd"
+decalspam_2.Text = "coolkid"
 decalspam_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 decalspam_2.TextSize = 23.000
 
@@ -232,7 +232,7 @@ decalspam_11.BorderSizePixel = 0
 decalspam_11.Position = UDim2.new(0.915725529, 0, 9.22774124, 0)
 decalspam_11.Size = UDim2.new(0, 129, 0, 50)
 decalspam_11.Font = Enum.Font.Arial
-decalspam_11.Text = "skeleton"
+decalspam_11.Text = "Skybox 3"
 decalspam_11.TextColor3 = Color3.fromRGB(255, 255, 255)
 decalspam_11.TextSize = 23.000
 
