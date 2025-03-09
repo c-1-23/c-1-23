@@ -1,57 +1,392 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local RunService = game:GetService("RunService")
 
-]]--
+local Window = Rayfield:CreateWindow({
+   Name = "soonlkidd fe gui v2",
+   Icon = 0, 
+   LoadingTitle = "🚨 Loading, please wait for the script to load🚨",
+   LoadingSubtitle = "by soonlkidd",
+   Theme = "Default",
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
 
-local v0 = loadstring(game:HttpGet("https://sirius.menu/rayfield"))();
-local v1 = v0:CreateWindow({Name="soonlkidd's fe gui",Icon=(111162344980285 - (668 + 222)),LoadingTitle="soonlkidd's gui",LoadingSubtitle="by Soonlkidd",Theme="Default",DisableRayfieldPrompts=false,DisableBuildWarnings=false,ConfigurationSaving={Enabled=true,FolderName=nil,FileName="Big Hub"},Discord={Enabled=True,Invite="Teamsoonlkidd",RememberJoins=false},KeySystem=true,KeySettings={Title="join discord for key, this script can be used for other games.",Subtitle="Enter Key",Note="Join the discord and ask the mods or owner for key",FileName="pastebin",SaveKey=false,GrabKeyFromSite=false,Key={"soonlkiddsecretkey","dyskord","quijk"}}});
-local v2 = v1:CreateTab("Script", nil);
-local v3 = v2:CreateSection("Script");
-local v4 = v1:CreateTab("Tool givers", nil);
-local v5 = v1:CreateTab("Discord link", nil);
-v0:Notify({Title="Welcome!",Content="Key system here!!!",Duration=(880.5 - (282 + 595)),Image=(111162344981032 - (1523 + 114))});
-local v6 = v2:CreateButton({Name="logo project ligma",Callback=function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/K"))();
-end});
-local v6 = v2:CreateButton({Name="Guest_999s0 v3",Callback=function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/MFyvPtEN"))();
-end});
-local v6 = v2:CreateButton({Name="POLARIA",Callback=function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/POLARIA"))();
-end});
-local v6 = v2:CreateButton({Name="young Shelon gui",Callback=function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/asrzS5Ha"))();
-end});
-local v6 = v2:CreateButton({Name="dominator executor",Callback=function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/u97psnsQ"))();
-end});
-end});
-local v6 = v2:CreateButton({Name="dominator executor",Callback=function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/u97psnsQ"))();
-end});
-local v6 = v2:CreateButton({Name="Exser",Callback=function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/gitluau/luauexser/refs/heads/main/pHzp8uG1PO962o6qucrlP3AJy17eV3B.lua"))();
-end});
-local v7 = v2:CreateButton({Name="T0PK3K",Callback=function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/T0PK3K%204.0"))();
-end});
-local v6 = v4:CreateButton({Name="Telekinesis",Callback=function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/07GGb4Dk", true))();
-end});
-local v6 = v5:CreateButton({Name="https://discord.gg/xyKCEVhE",Callback=function()
-end});
-local v6 = v5:CreateButton({Name="discord.gg/xyKCEVhE",Callback=function()
-end});
-local v8 = v1:CreateTab("Player", nil);
-local v9 = v8:CreateSection("Tp or edit your speed.");
-local v10 = v8:CreateSlider({Name="Walk Speed",Range={(22 - 6),(1520 - (226 + 1044))},Increment=(4 - 3),Suffix="Speed",CurrentValue=(133 - (32 + 85)),Flag="Slider1",Callback=function(v12)
-	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v12;
-end});
-local v11 = v8:CreateDropdown({Name="Teleport to area (Not working atm)",Options={"Spawn","Island"},CurrentOption={"nil"},MultipleOptions=false,Flag="Teleport",Callback=function(v14)
-end});
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "simple function by ExecutorX"
+   },
+
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = false
+   },
+
+   KeySystem = true,
+   KeySettings = {
+      Title = " key system",
+      Subtitle = "Key system by soonlkidd",
+      Note = "🔑key",
+      FileName = "nil",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"soonlkiddsecretkey"}
+   }
+})
+
+local Tab = Window:CreateTab("soonlkidd script gui", 75430428228312) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "logo ligma",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/Logo%20project%20ligma'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "soonlkidd v2",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/%23%40%24%2B-%26_%2B%23-%404%2492%3F%20%3B%3A'%23%40%24%2B-%26_%2B%23-%404%2492%3F%20%3B%3A'%20%23%40%24%2B-%26_%2B%23-%404%2492%3F%20%3B%3A'%23%40%24%2B-%26_%2B%23-%404%2492%3F%20%3B%3A'%23%40%24%2B-%26_%2B%23-%404%2492%3F%20%3B%3A'%23%40%24%2B-%26_%2B%23-%404%2492%3F%20%3B%3A''))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "T0PK3K 4.0",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/T0PK3K%204.0"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "soon",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/nahnahanah/nahnahanah/main/Aimbot%20script'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "soon",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/nahnahanah/nahnahanah/main/Aimbot%20script'))()
+   end,
+})
+
+
+
+local Button = Tab:CreateButton({
+   Name = "soon",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/nahnahanah/nahnahanah/main/Aimbot%20script'))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "soon",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/nahnahanah/nahnahanah/main/Aimbot%20script'))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "soon",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/nahnahanah/nahnahanah/main/Aimbot%20script'))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "soon",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/nahnahanah/nahnahanah/main/Aimbot%20script'))()
+   end,
+})
+
+
+local Tab = Window:CreateTab("Blue lock rivals", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "toraisme",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/BlueLock"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "tbao hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubBlueLockRivals"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Arbix Hub",
+   Callback = function()
+          loadstring(game:HttpGet(('https://pastefy.app/lbLVUm8Z/raw'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "idk the name",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/selciawashere/screepts/refs/heads/main/BLRTBDMOBILEKEYSYS",true))()
+   end,
+})
+
+local Tab = Window:CreateTab("brookhaven scripts", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "ExecutorX copying avatar",
+   Callback = function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/5eLtfv9J"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Chaos Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/58jNvV3h"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Sander Hub",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/kigredns/SanderXV4.2.2/refs/heads/main/NormalSS.lua'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Y-Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarmor123/community-Y-HUB/refs/heads/main/YHUB%20ENGLISH"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "SP Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven"))()
+   end,
+})
+
+local Tab = Window:CreateTab("natural disaster survival script", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Super Rings by Lukas",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Lukashub-coder/super-ring/refs/heads/main/Super%20ring!!"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "My Fly GUI",
+   Callback = function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/9jJHwXhC"))()
+   end,
+})
+
+local Tab = Window:CreateTab("universal script", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "My Fly GUI",
+   Callback = function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/9jJHwXhC"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "AimLock",
+   Callback = function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/frSeaLsT"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "NameLess Admin",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+   end,
+})
+
+local Tab = Window:CreateTab("blox fruit scripts (NOT MINE!)", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Speed x hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Cokka hub",
+   Callback = function()
+          loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Redz hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("dead rails script", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "SpiderX Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiderScriptRB/Dead-Rails-SpiderXHub-Script/refs/heads/main/SpiderXHub%202.0.txt"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "gumanba Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/refs/heads/main/DeadRails", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Speed X Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Emplic Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Emplic/deathrails/refs/heads/main/bond"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Sypher Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/deprivationist/Sypher-Hub/refs/heads/main/Dead%20Rails%20Sypher%20Hub.txt", true))()
+   end,
+})
+
+local Tab = Window:CreateTab("Mm2 scripts", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Nexus Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/s-0-a-b/nexus/main/loadstring"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Mm2 script",
+   Callback = function()
+          loadstring(game:HttpGet"https://pastebin.com/raw/dB3kQmYm")()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Vertex",
+   Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Mm2 script",
+   Callback = function()
+          loadstring(game:HttpGet('https://pastebin.com/raw/e89Mn4Ec'))()
+   end,
+})
+
+local Tab = Window:CreateTab("Fisch script", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Banana Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Speed X hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "YHUB",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarmor123/community-Y-HUB/refs/heads/main/Fisch-YHUB"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Solix Hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/debunked69/Solixreworkkeysystem/refs/heads/main/solix%20new%20keyui.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Raito hub",
+   Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/refs/heads/main/Script"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Fisch Script",
+   Callback = function()
+          loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("use this if the gui is bugged", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Destroy GUI",
+   Callback = function()
+      if Rayfield then
+         -- Attempt to destroy the Rayfield window
+         local success, errorMessage = pcall(function()
+            Rayfield:Destroy()  -- Destroy the entire Rayfield window (GUI)
+         end)
+
+         if success then
+            print("Rayfield GUI destroyed successfully")
+         else
+            print("Error destroying Rayfield GUI: " .. errorMessage)
+         end
+      end
+   end
+})
+
+local Button = Tab:CreateButton({
+   Name = "Reexecute Script",
+   Callback = function()
+      print("Reexecuting the script...")
+
+      -- Ensure executeScript exists and is a function before calling it
+      if executeScript and type(executeScript) == "function" then
+         local success, err = pcall(executeScript)
+         if not success then
+            warn("Error reexecuting script: " .. err)
+         end
+      else
+         warn("executeScript function not found!")
+      end
+   end
+})
