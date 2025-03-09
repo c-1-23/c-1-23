@@ -7,7 +7,7 @@ lel.Size = UDim2.new(0.0, 100, 0.0, 100)
 lel.Position = UDim2.new(-0.127000004, 0, 0.407999992, 0)
 lel.BackgroundColor3 = Color3.new(0, 0, 0)
 lel.ImageColor3 = Color3.new(1, 1, 1)
-lel.Image = "rbxassetid://"
+lel.Image = "rbxassetid://117606757828711"
 lel.ImageTransparency = 0
 lel.Parent = gui
 
@@ -18,7 +18,7 @@ Ring.Size = UDim2.new(1.0, 0, 1.0, 0)
 Ring.Position = UDim2.new(0.0, 0, 0.0, 0)
 Ring.BackgroundColor3 = Color3.new(0, 0, 0)
 Ring.ImageColor3 = Color3.new(1, 1, 1)
-Ring.Image = "rbxassetid://75430428228312"
+Ring.Image = "rbxassetid://113261737322007"
 Ring.ImageTransparency = 0
 Ring.Parent = lel
 
@@ -29,7 +29,7 @@ Orbit.Size = UDim2.new(0.0, 21, 0.0, 21)
 Orbit.Position = UDim2.new(0.0, 0, 0.0, 10)
 Orbit.BackgroundColor3 = Color3.new(0, 0, 0)
 Orbit.ImageColor3 = Color3.new(1, 1, 1)
-Orbit.Image = "rbxassetid://"
+Orbit.Image = "rbxassetid://133302540913018"
 Orbit.ImageTransparency = 0
 Orbit.Parent = Ring
 
