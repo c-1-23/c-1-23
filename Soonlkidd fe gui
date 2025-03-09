@@ -28,8 +28,8 @@ end});
 local v6 = v2:CreateButton({Name="young Shelon gui",Callback=function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/asrzS5Ha"))();
 end});
-local v6 = v2:CreateButton({Name="Obama jumpscare",Callback=function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/fWiapqXJ"))();
+local v6 = v2:CreateButton({Name="Obama jumpscare",Callback=function()k
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/Obama%20jumpscare"))();
 end});
 local v6 = v2:CreateButton({Name="dominator executor",Callback=function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/u97psnsQ"))();
