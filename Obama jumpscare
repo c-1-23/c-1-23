@@ -1,3 +1,7 @@
+local gui = Instance.new("ScreenGui")
+gui.Name = "Obama"
+gui.Parent = game.CoreGui
+
 local jump = Instance.new("ImageLabel")
 jump.Size = UDim2.new(0.9, 150, 0.9, 150)
 jump.Position = UDim2.new(0.0, 0, 0.0, -59)
