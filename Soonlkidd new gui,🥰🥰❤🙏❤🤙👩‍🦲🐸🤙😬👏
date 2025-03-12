@@ -1,0 +1,200 @@
+local gui = Instance.new("ScreenGui")
+gui.Name = "soonlkidd gui"
+gui.Parent = game.CoreGui
+
+local Ui = Instance.new("Frame")
+Ui.Size = UDim2.new(0.0, 489, 0.0, 300)
+Ui.Position = UDim2.new(0.0, 0, 0.0, 0)
+Ui.BackgroundColor3 = Color3.new(1, 1, 1)
+Ui.BorderColor3 = Color3.new(0, 0, 0)
+Ui.BorderSizePixel = 0
+Ui.Active = true
+Ui.BackgroundTransparency = 0.6
+Ui.Draggable = true
+Ui.Parent = gui
+
+local Image = Instance.new("ImageLabel")
+Image.Size = UDim2.new(1.004, 0, 1.0, 0)
+Image.Position = UDim2.new(0.0, 0, 0.0, 0)
+Image.BackgroundColor3 = Color3.new(0, 0, 0)
+Image.ImageColor3 = Color3.new(1, 1, 1)
+Image.Image = "rbxassetid://134572433517671"
+Image.ImageTransparency = 0.4
+Image.Parent = Ui
+
+local Imag = Instance.new("ImageLabel")
+Imag.Size = UDim2.new(0.3, 3, 0.3, 0)
+Imag.Position = UDim2.new(1.0, 0, 0.0, 0)
+Imag.BackgroundColor3 = Color3.new(0, 0, 0)
+Imag.ImageColor3 = Color3.new(1, 1, 1) 
+Imag.Image = "rbxassetid://75430428228312"
+Imag.ImageTransparency = 0.4
+Imag.Parent = Ui
+
+Image.BackgroundTransparency = 1
+
+local Text = Instance.new("TextLabel")
+Text.Size = UDim2.new(1.0, 0, 0.1, 20)
+Text.Position = UDim2.new(0.0, 0, 0.0, 0)
+Text.BackgroundColor3 = Color3.new(0, 0, 0)
+Text.BorderColor3 = Color3.new(0, 0, 0)
+Text.BorderSizePixel = 1
+Text.Text = "soonlkidd gui no skid"
+Text.BackgroundTransparency = 1
+Text.TextColor3 = Color3.new(0, 0, 0)
+Text.Font = Enum.Font.Highway
+Text.Parent = Image
+Text.TextSize = 30
+
+local Tex = Instance.new("TextLabel")
+Tex.Size = UDim2.new(1.0, 0, 0.1, 20)
+Tex.Position = UDim2.new(0.0, 8, 0.0, 283)
+Tex.BackgroundColor3 = Color3.new(1, 1, 1)
+Tex.BorderColor3 = Color3.new(0, 0, 0)
+Tex.BorderSizePixel = 1
+Tex.Text = "by soonlkidd follow my tiktok🤑"
+Tex.BackgroundTransparency = 1
+Tex.TextColor3 = Color3.new(0, 0, 0)
+Tex.Font = Enum.Font.Highway
+Tex.Parent = Image
+Tex.TextSize = 30
+
+local Re = Instance.new("TextButton")
+Re.Size = UDim2.new(0.1, 22, 0.1, 0)
+Re.Position = UDim2.new(0.4, 8, 0.0, 266)
+Re.BackgroundColor3 = Color3.new(1, 1, 1)
+Re.BorderColor3 = Color3.new(0, 0, 0)
+Re.BorderSizePixel = 0
+Re.Text = "R6"
+Re.BackgroundTransparency = 0.1
+Re.TextColor3 = Color3.new(0, 0, 0)
+Re.Font = Enum.Font.Montserrat
+Re.Parent = Image
+Re.TextSize = 21
+Re.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9BFcHqfK"))("Copyright ERROR_CODE ECCS Co")
+end)
+
+local R6 = Instance.new("TextButton")
+R6.Size = UDim2.new(0.1, 22, 0.1, 0)
+R6.Position = UDim2.new(0.5, 35, 0.0, 266)
+R6.BackgroundColor3 = Color3.new(1,1, 1)
+R6.BorderColor3 = Color3.new(0, 0, 0)
+R6.BorderSizePixel = 0
+R6.Text = "Re"
+R6.BackgroundTransparency = 0.1
+R6.TextColor3 = Color3.new(0, 0, 0)
+R6.Font = Enum.Font.Montserrat
+R6.Parent = Image
+R6.TextSize = 23
+R6.MouseButton1Click:Connect(function()
+if game.Players.LocalPlayer.Character then
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end
+end)
+
+local Free = Instance.new("TextButton")
+Free.Size = UDim2.new(0.1, 22, 0.1, 0)
+Free.Position = UDim2.new(0.8, 8, 0.0, 266)
+Free.BackgroundColor3 = Color3.new(1, 1, 1)
+Free.BorderColor3 = Color3.new(0, 0, 0)
+Free.BorderSizePixel = 0
+Free.Text = "soon"
+Free.BackgroundTransparency = 0.1
+Free.TextColor3 = Color3.new(0, 0, 0)
+Free.Font = Enum.Font.Montserrat
+Free.Parent = Image
+Free.TextSize = 21
+Free.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AGRcUv"))("Copyright ERROR_CODE ECCS Co")
+end)
+
+local Fre = Instance.new("TextButton")
+Fre.Size = UDim2.new(0.1, 22, 0.1, 0)
+Fre.Position = UDim2.new(0.8, 8, 0.0, 220)
+Fre.BackgroundColor3 = Color3.new(1, 1, 1)
+Fre.BorderColor3 = Color3.new(0, 0, 0)
+Fre.BorderSizePixel = 0
+Fre.Text = "Sheldoni"
+Fre.BackgroundTransparency = 0.1
+Fre.TextColor3 = Color3.new(0, 0, 0)
+Fre.Font = Enum.Font.Montserrat
+Fre.Parent = Image
+Fre.TextSize = 19
+Fre.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AGRcUvPm"))("Copyright ERROR_CODE ECCS Co")
+end)
+
+local Fr = Instance.new("TextButton")
+Fr.Size = UDim2.new(0.1, 22, 0.1, 0)
+Fr.Position = UDim2.new(0.8, 8, 0.0, 180)
+Fr.BackgroundColor3 = Color3.new(1, 1, 1)
+Fr.BorderColor3 = Color3.new(0, 0, 0)
+Fr.BorderSizePixel = 0
+Fr.Text = "exser"
+Fr.BackgroundTransparency = 0.1
+Fr.TextColor3 = Color3.new(0, 0, 0)
+Fr.Font = Enum.Font.Montserrat
+Fr.Parent = Image
+Fr.TextSize = 21
+Fr.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/AGRcUvPm"))("Copyright ERROR_CODE ECCS Co")
+end)
+
+local F6 = Instance.new("TextButton")
+F6.Size = UDim2.new(0.1, 22, 0.1, 0)
+F6.Position = UDim2.new(0.8, 8, 0.0, 140)
+F6.BackgroundColor3 = Color3.new(1, 1, 1)
+F6.BorderColor3 = Color3.new(0, 0, 0)
+F6.BorderSizePixel = 0
+F6.Text = "Stigma ultimate"
+F6.BackgroundTransparency = 0.1
+F6.TextColor3 = Color3.new(0, 0, 0)
+F6.Font = Enum.Font.Montserrat
+F6.Parent = Image
+F6.TextSize = 19
+F6.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/Private/refs/heads/main/Private?token=GHSAT0AAAAAAC7GYSVSBWEF4GNU4PIXEXCUZ6RKE3Q"))("Copyright ERROR_CODE ECCS Co")
+end)
+
+local lel = Instance.new("ImageLabel")
+lel.Size = UDim2.new(0.0, 100, 0.0, 100)
+lel.Position = UDim2.new(-0.127000004, 0, 0.407999992, 0)
+lel.BackgroundColor3 = Color3.new(0, 0, 0)
+lel.ImageColor3 = Color3.new(1, 1, 1)
+lel.Image = "rbxassetid://117606757828711"
+lel.ImageTransparency = 0
+lel.Parent = gui
+
+lel.BackgroundTransparency = 1 
+
+local Ring = Instance.new("ImageLabel")
+Ring.Size = UDim2.new(1.0, 0, 1.0, 0)
+Ring.Position = UDim2.new(0.0, 0, 0.0, 0)
+Ring.BackgroundColor3 = Color3.new(0, 0, 0)
+Ring.ImageColor3 = Color3.new(1, 1, 1)
+Ring.Image = "rbxassetid://113261737322007"
+Ring.ImageTransparency = 0
+Ring.Parent = lel
+
+Ring.BackgroundTransparency = 1
+
+local Orbit = Instance.new("ImageLabel")
+Orbit.Size = UDim2.new(0.0, 21, 0.0, 21)
+Orbit.Position = UDim2.new(0.0, 0, 0.0, 10)
+Orbit.BackgroundColor3 = Color3.new(0, 0, 0)
+Orbit.ImageColor3 = Color3.new(1, 1, 1)
+Orbit.Image = "rbxassetid://133302540913018"
+Orbit.ImageTransparency = 0
+Orbit.Parent = Ring
+
+Orbit.BackgroundTransparency = 1
+
+lel:TweenPosition(UDim2.new(0.458, 0, 0.408, 0), "Out", "Linear", 0.4, false)
+wait(3)
+lel:TweenPosition(UDim2.new(0.0, 9, 0.0, 190), "Out", "Sine", 0.7, false)
+
+while wait() do
+Ring.Rotation = Ring.Rotation + 1
+Orbit.Rotation = Orbit.Rotation - 1
+end
