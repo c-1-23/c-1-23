@@ -99,14 +99,14 @@ Free.Position = UDim2.new(0.8, 8, 0.0, 266)
 Free.BackgroundColor3 = Color3.new(1, 1, 1)
 Free.BorderColor3 = Color3.new(0, 0, 0)
 Free.BorderSizePixel = 0
-Free.Text = "soon"
+Free.Text = "k00pkidd v11"
 Free.BackgroundTransparency = 0.1
 Free.TextColor3 = Color3.new(0, 0, 0)
 Free.Font = Enum.Font.Montserrat
 Free.Parent = Image
 Free.TextSize = 21
 Free.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/AGRcUv"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/K00pkidd%20v11"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local Fre = Instance.new("TextButton")
