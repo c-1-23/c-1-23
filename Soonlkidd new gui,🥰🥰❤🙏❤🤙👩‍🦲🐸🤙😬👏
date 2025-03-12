@@ -157,6 +157,38 @@ F6.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/Private/refs/heads/main/Private?token=GHSAT0AAAAAAC7GYSVSBWEF4GNU4PIXEXCUZ6RKE3Q"))("Copyright ERROR_CODE ECCS Co")
 end)
 
+local F9 = Instance.new("TextButton")
+F9.Size = UDim2.new(0.1, 22, 0.1, 0)
+F9.Position = UDim2.new(0.8, 8, 0.0, 110)
+F9.BackgroundColor3 = Color3.new(1, 1, 1)
+F9.BorderColor3 = Color3.new(0, 0, 0)
+F9.BorderSizePixel = 0
+F9.Text = "Obama"
+F9.BackgroundTransparency = 0.1
+F9.TextColor3 = Color3.new(0, 0, 0)
+F9.Font = Enum.Font.Montserrat
+F9.Parent = Image
+F9.TextSize = 19
+F9.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/Obama%20jumpscare"))("Copyright ERROR_CODE ECCS Co")
+end)
+
+local F1 = Instance.new("TextButton")
+F1.Size = UDim2.new(0.1, 22, 0.1, 0)
+F1.Position = UDim2.new(0.8, 8, 0.0, 70)
+F1.BackgroundColor3 = Color3.new(1, 1, 1)
+F1.BorderColor3 = Color3.new(0, 0, 0)
+F1.BorderSizePixel = 0
+F1.Text = "POLARIA"
+F1.BackgroundTransparency = 0.1
+F1.TextColor3 = Color3.new(0, 0, 0)
+F1.Font = Enum.Font.Montserrat
+F1.Parent = Image
+F1.TextSize = 19
+F1.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/POLARIA"))("Copyright ERROR_CODE ECCS Co")
+end)
+
 local lel = Instance.new("ImageLabel")
 lel.Size = UDim2.new(0.0, 100, 0.0, 100)
 lel.Position = UDim2.new(-0.127000004, 0, 0.407999992, 0)
