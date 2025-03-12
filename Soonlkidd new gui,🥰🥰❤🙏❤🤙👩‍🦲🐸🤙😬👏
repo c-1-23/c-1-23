@@ -122,7 +122,7 @@ Fre.Font = Enum.Font.Montserrat
 Fre.Parent = Image
 Fre.TextSize = 19
 Fre.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/AGRcUvPm"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Secret62-art/Sheldoni-gui-/refs/heads/main/Sheldoni%20gui"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local Fr = Instance.new("TextButton")
