@@ -106,7 +106,7 @@ Free.Font = Enum.Font.Montserrat
 Free.Parent = Image
 Free.TextSize = 21
 Free.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/K00pkidd%20v11"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("https://pastebin.com/raw/quRN5xtg"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local Fre = Instance.new("TextButton")
@@ -122,7 +122,7 @@ Fre.Font = Enum.Font.Montserrat
 Fre.Parent = Image
 Fre.TextSize = 19
 Fre.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Secret62-art/Sheldoni-gui-/refs/heads/main/Sheldoni%20gui"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("https://pastebin.com/raw/uw2kzVeb"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local Fr = Instance.new("TextButton")
@@ -138,7 +138,7 @@ Fr.Font = Enum.Font.Montserrat
 Fr.Parent = Image
 Fr.TextSize = 21
 Fr.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/gitluau/luauexser/refs/heads/main/pHzp8uG1PO962o6qucrlP3AJy17eV3B.lua"))()"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("https://pastebin.com/raw/R2ZgRra9"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local F6 = Instance.new("TextButton")
@@ -154,7 +154,7 @@ F6.Font = Enum.Font.Montserrat
 F6.Parent = Image
 F6.TextSize = 19
 F6.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/Private/refs/heads/main/Private?token=GHSAT0AAAAAAC7GYSVSBWEF4GNU4PIXEXCUZ6RKE3Q"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("https://pastebin.com/raw/quRN5xtg"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local F9 = Instance.new("TextButton")
@@ -170,7 +170,7 @@ F9.Font = Enum.Font.Montserrat
 F9.Parent = Image
 F9.TextSize = 19
 F9.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/Obama%20jumpscare"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("https://pastebin.com/raw/quRN5xtg"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local F1 = Instance.new("TextButton")
@@ -186,7 +186,7 @@ F1.Font = Enum.Font.Montserrat
 F1.Parent = Image
 F1.TextSize = 19
 F1.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/c-1-23/c-1-23/refs/heads/main/POLARIA"))("Copyright ERROR_CODE ECCS Co")
+loadstring(game:HttpGet("https://pastebin.com/raw/quRN5xtg"))("Copyright ERROR_CODE ECCS Co")
 end)
 
 local lel = Instance.new("ImageLabel")
